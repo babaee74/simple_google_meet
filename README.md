@@ -12,10 +12,13 @@ source mvenv/bin/activate
 ```
 ### Install python Requirements
 Before running update your redis url and ```ALLOWED_HOSTS``` inside your ```settings.py```
+
+I am using django channels with redis
 ```
 pip install django==3.2.4   
 pip install channels==3.0.1
 pip install channels-redis
+sudo apt install redis-server
 # to run django server
 python3 manage.py runserver 0.0.0.0:8000
 ```
@@ -32,5 +35,8 @@ npm run build
 # to test on localhost
 npm start
 ```
+
+## Demo
+[![See Demo](https://github.com/babaee74/simple_google_meet/blob/main/demo.png)](https://github.com/babaee74/simple_google_meet/blob/main/demo.mkv)
 
 

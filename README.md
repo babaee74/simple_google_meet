@@ -2,6 +2,7 @@
 This is repository is an example implementation of Webrtc using reactjs and backend of django and django channels. currently this app does not need any signin or signup and users create a room a=and choose a username of their choice and wait for their peers to join the same room.
 The project has been successfully deployed on an ubuntu 20.04 VPS and you can test and enjoy it using [this link](https://callme.icanapp.name/). have in mind chrome and other browser will not let camera and mic access over http outside the local network.
 
+this has been tested on multiple android, windows, ubuntu chrome and firefox browsers
 ## Usage
 
 ### Create a python environment
